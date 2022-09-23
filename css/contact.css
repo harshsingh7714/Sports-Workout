@@ -4,9 +4,10 @@
 ====================================================================================================================================================================
 */
 
+
 form {
-    display: inline-block;
-    position: absolute;
+
+
     top: 300px;
     left: 614px;
 }
@@ -14,17 +15,63 @@ form {
 input {
     display: inline-block;
 }
-body{
+div{
+
+  text-align: center;
+
+}
+h1#st{
+  text-decoration: underline;
   text-align: center;
 
 }
 label{
-  color:white;
+  color:red;
 }
 h1 {
-  color:white;
+  color:red;
 }
 
+input[type=text],select{
+width: auto;
+  padding:12px 20px;
+
+  border-radius: 4px;
+  border: 2px solid black;
+  box-sizing: border-box;
+
+}
+input[type=submit]{
+width: inherit;
+  padding:12px 20px;
+
+  border-radius: 4px;
+  border: 2px solid black;
+  box-sizing: border-box;
+
+
+}
+input[type=submit]:hover{
+  background: red;
+}
+textarea[type=text]{
+width: 500%
+  padding:12px 20px;
+
+  border-radius: 4px;
+  border: 2px solid black;
+  box-sizing: border-box;
+
+
+}
+div.form{
+  top: 300px;
+  left: 614px;
+  border-radius: 5px;
+  padding: 20px;
+
+
+}
 /*
 ====================================================================================================================================================================
                                                     End Contact Page

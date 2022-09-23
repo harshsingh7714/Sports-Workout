@@ -9,6 +9,7 @@ section#header {
     top: 100px;
     left: 500px;
 
+
 }
 
 section#content {
@@ -22,6 +23,14 @@ section#content {
 img#slide {
     width: 100%;
     height: 650px;
+}
+section#Courses{
+background: rgb(210, 210, 210);
+background-image: linear-gradient(to right,orange,white,green);
+width: 1550px;
+height: auto;
+top:750px;
+left:0px;
 }
 
 /*
@@ -116,6 +125,7 @@ div.students {
     position: absolute;
     top: 212px;
     left: 100px;
+    border-radius: 20px;
 }
 
 div.reviews {
@@ -127,6 +137,7 @@ div.reviews {
     position: absolute;
     top: 212px;
     left: 450px;
+    border-radius: 20px;
 }
 
 div.courses {
@@ -138,6 +149,7 @@ div.courses {
     position: absolute;
     top: 212px;
     left: 801px;
+    border-radius: 20px;
 }
 
 div.content {
@@ -149,6 +161,7 @@ div.content {
     position: absolute;
     top: 212px;
     left: 1151px;
+    border-radius: 20px;
 }
 
 /*
@@ -157,55 +170,6 @@ div.content {
 ====================================================================================================================================================================
 */
 
-/*
-====================================================================================================================================================================
-                                                    Start Learn Tech Section Properties
-====================================================================================================================================================================
-*/
-
-div.learntechnow {
-    width: 400px;
-    height: 500px;
-    background: white;
-    border: 1px solid transparent;
-    position: absolute;
-    top: 2500px;
-    left: 400px;
-}
-
-div.learntechpodcast {
-    width: 400px;
-    height: 500px;
-    background: white;
-    border: 1px solid transparent;
-    position: absolute;
-    top: 2500px;
-    left: 850px;
-}
-
-div.learntechblog {
-    width: 400px;
-    height: 500px;
-    background: white;
-    border: 1px solid transparent;
-    position: absolute;
-    top: 2500px;
-    left: 1300px;
-}
-.h1lt {
-
-    position: absolute;
-    top: 2320px;
-    left: 614px;
-}
-
-
-
-/*
-====================================================================================================================================================================
-                                                    End Learn Tech Section Properties
-====================================================================================================================================================================
-*/
 
 /*
 ====================================================================================================================================================================
@@ -214,7 +178,7 @@ div.learntechblog {
 */
 footer{
     width: 100%;
-    height: 120px;
+    height: 100px;
     background: #6f1c1c;
     position: absolute;
     top: 2700px;
@@ -229,7 +193,7 @@ p#footer {
 p#credits {
     text-align: center;
     color: white;
-    margin-top: 32px;
+    margin-top: 10px;
     font-size: 1em;
 }
 

@@ -1,51 +1,58 @@
 /*
 ====================================================================================================================================================================
-                                                    Start Premium Plus Page 
+                                                    Start Premium Plus Page
 ====================================================================================================================================================================
 */
 
 div.monthly {
     width: 400px;
-    height: 500px;
+    height: 300px;
     background: white;
     border: 1px solid transparent;
     position: absolute;
     top: 300px;
-    left: 400px;
+    left: 300px;
 }
 
 div.annual {
     width: 400px;
-    height: 500px;
+    height: 300px;
     background: white;
     border: 1px solid transparent;
     position: absolute;
     top: 300px;
-    left: 850px;
+    left: 900px;
 }
 
 div.lifetime {
     width: 400px;
-    height: 500px;
+    height: 300px;
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 300px;
-    left: 1300px;
+    top: 650px;
+    left: 600px;
 }
-
+section#courses{
+background: rgb(210, 210, 210);
+background-image: linear-gradient(to right,orange,white,green);
+width: 1550px;
+height: auto;
+top:750px;
+left:0px;
+}
 h6 {
 	font-size: 1em;
 }
 
 /*
 ====================================================================================================================================================================
-                                                    End Premium Plus Page 
+                                                    End Premium Plus Page
 ====================================================================================================================================================================
 */
 
 
-  
+
 
 /*
 ====================================================================================================================================================================
@@ -53,19 +60,24 @@ h6 {
 ====================================================================================================================================================================
 */
 
-footer {
+footer{
     width: 100%;
-    height: 80px;
-    background: #172035;
+    height: 100px;
+    background: #6f1c1c;
     position: absolute;
-    top: 900px!important;
+    top: 1000px!important;
     left: 0;
 }
-
 p#footer {
     text-align: center;
     color: white;
     margin-top: 32px;
+    font-size: 1em;
+}
+p#credits {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
     font-size: 1em;
 }
 
@@ -74,5 +86,3 @@ p#footer {
                                                     End Footer
 ====================================================================================================================================================================
 */
-
- 

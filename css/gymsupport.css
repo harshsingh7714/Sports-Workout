@@ -4,6 +4,20 @@
 ====================================================================================================================================================================
 */
 
+
+h1#style{
+
+  margin-bottom: 20px;
+  text-align:center;
+  background: rgb(210, 210, 210);
+  background-image: linear-gradient(to right,orange,white,green);
+  width: 1550px;
+  height: auto;
+  top:750px;
+  left:0px;
+  text-transform: capitalize;
+
+}
 #computer {
     position: absolute;
     top: 250px;
@@ -40,12 +54,12 @@
     left: 733px;
 }
 
-footer#techsupport {
+footer{
     width: 100%;
-    height: 80px;
-    background: #172035;
+    height: 120px;
+    background:  #6f1c1c;
     position: absolute;
-    top: 1600px;
+    top: 1400px;
     left: 0;
 }
 
@@ -55,7 +69,13 @@ p#footer {
     margin-top: 32px;
     font-size: 1em;
 }
-
+p#credits {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 1em;
+};
+}
 /*
 ====================================================================================================================================================================
                                                     End Tech Support Page
